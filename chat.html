@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/chat_icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cssemoji/jquery.emojiarea.css">
+    <link rel="stylesheet" href="css/cssemoji/stylesheet.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+    <link rel="stylesheet" href="css/cssemoji/fontello.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <button type="button" class="btn btn-success">Canli Yardim</button>
+    <div class="all">
+
+        <div class="main">
+            <div class="sect1">
+                <div class="logo">
+                    <h4>Canli Yardim</h4>
+                </div>
+                <div class="trash">
+                    <i class="fas fa-trash-alt"></i>
+                </div>
+            </div>
+            <div class="sect2">
+                <div class="imgdiv">
+                    <img id="imgs" src="img/call.jpg" alt="">
+                </div>
+                <div class="textdiv">
+                    </p>Size nece komek ede bilerem?</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="sent">
+            <div class="container">
+                <input type="text" 
+                name="inputname" 
+                placeholder="Ismaricinizi daxil edin" id="input_text"/>
+                <button
+                onclick='responsiveVoice.speak("sent message");'
+                type='button'
+                value='🔊 Play' 
+                class="btn btn-primary dif">send</button>
+                <div class="emoji">
+                    <a id="smiley" title="smiley" href="#" >&#128515;</a>
+                    <a id="smiley1" title="smiley" href="#" >&#128514;</a> 
+                    <a id="smiley2" title="smiley" href="#" >&#128517;</a>
+                    <a id="smiley3" title="smiley" href="#" >&#128522;</a>
+                    <a id="smiley4" title="smiley" href="#" >&#128523;</a>
+                    <a id="smiley5" title="smiley" href="#" >&#128524;</a>
+                    <a id="smiley6" title="smiley" href="#" >&#128525;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/ion.sound.min.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+
+</html>

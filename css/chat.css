@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.btn-success {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #bade4c; }
+
+.dif {
+  background-color: #bade4c; }
+
+.main {
+  width: 900px;
+  height: 400px;
+  background-color: #a79f9f;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translate(-50%);
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .main .sect1 {
+    background-color: #bade4c;
+    display: flex;
+    justify-content: space-between; }
+    .main .sect1 .logo {
+      padding: 10px 0 0 10px; }
+      .main .sect1 .logo h4 {
+        font-family: 'Delius', cursive; }
+    .main .sect1 .trash i {
+      cursor: pointer;
+      font-size: 25px;
+      position: relative;
+      top: 10px;
+      right: 10px;
+      color: antiquewhite; }
+  .main .sect2 {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center; }
+    .main .sect2 .textdiv {
+      width: 70%; }
+
+.sent input {
+  bottom: 10%;
+  position: absolute;
+  padding: 12px;
+  width: 70%; }
+.sent button {
+  bottom: 11%;
+  right: 21%;
+  position: absolute; }
+
+.all {
+  display: none; }
+
+.all.active {
+  display: block; }
+
+img {
+  width: 100px;
+  height: 100px; }
+
+#maindiv {
+  text-align: right; }
+
+#admindiv {
+  text-align: left; }
+
+#delete {
+  top: 0;
+  right: 24px;
+  position: absolute;
+  cursor: pointer; }
+
+.selected {
+  background-color: #648694; }
+
+.trash {
+  display: none; }
+
+.trash.trash_active {
+  display: block; }
+
+.emoji {
+  position: relative;
+  bottom: -572px; }
+
+/*# sourceMappingURL=chat.css.map */
